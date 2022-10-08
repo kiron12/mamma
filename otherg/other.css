@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    color: azure;
+}
+
+/*navbar start*/
+#otherg{
+    color: coral !important;
+}
+nav{
+    align-items: center;
+    justify-content: center;
+}
+
+nav img{
+    width: 100px;
+}
+nav ul{
+    margin: auto;
+    font-size: 20px;
+}
+nav ul .dropdown-menu{
+    background: #000 !important;
+}
+nav ul li a:hover{
+    background: #000 !important;
+    color: coral !important;
+}
+nav ul li a{
+    color: white !important;
+}
+
+/* small device */
+@media (min-width: 768px){
+    nav ul .dropdown-menu{
+        background: #000 !important;
+    }
+    nav ul li a:hover{
+        background: #000 !important;
+        color: coral !important;
+    }
+    nav .navbar-toggler-icon{
+        color: azure !important;
+        background: azure !important;
+    }
+    input.form-control.me-2{
+        width: auto;
+    }
+}
+/* 995px  device */
+@media (max-width: 995px){
+    input.form-control.me-2{
+        width: 88px;
+    }
+}
+
+img.gallery-item{
+    max-width: 100%;
+    transition: ease-in 0.4s;
+}
+img.gallery-item:hover{
+    scale: 1.1;
+}
+
+/*footer*/
+.footerI .fa-facebook:hover{
+    transition: ease-in 0.4s;
+    color: rgb(110, 110, 231);
+    transform: scale(1.2);
+}
+.footerI .fa-twitter:hover{
+    transition: ease-in 0.4s;
+    color: rgb(86, 223, 223);
+    transform: scale(1.2);
+}
+.footerI .fa-youtube:hover{
+    transition: ease-in 0.4s;
+    color: rgb(230, 86, 86);
+    transform: scale(1.2);
+}
+
+input[type="mail"]{
+    outline: coral !important;
+    border: 1px solid gray !important;
+    padding: 5px;
+    border-radius: 10px;
+    color: coral;
+}
+input[type="mail"] ::placeholder{
+    color: coral;
+}
+footer button i:hover{
+    color: coral !important;
+    transform: scaleX(1.2);
+    transition: ease-in-out 0.3s;
+}
+span{
+    color: coral;
+}
